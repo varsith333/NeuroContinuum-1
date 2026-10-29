@@ -1,0 +1,4 @@
+numpy>=1.24
+matplotlib>=3.7
+# optional - only needed for the digits classification demo
+# scikit-learn>=1.3

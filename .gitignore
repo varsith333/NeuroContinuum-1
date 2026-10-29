@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Simulator / benchmark outputs
+simulator/output/
+architecture/results/
+*.png
+
+# RTL tool artifacts
+rtl/work/
+*.vcd
+*.wdb
+xsim.dir/
+xvlog.*
+xelab.*
+xsim.*
+webtalk*
+*.jou
+*.log
+*.rpt
+*.xpr
+*.wcfg
+dfx_runtime.txt
+
+# Generated Vivado projects (rebuild: rtl\create_project.tcl / rtl\report_util.tcl)
+# NB: keep these patterns alone on their line — a trailing "# comment" becomes
+# part of the pattern and silently stops the rule from matching.
+rtl/NeuroContinuum/
+rtl/synth_run/
